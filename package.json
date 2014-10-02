@@ -1,0 +1,8 @@
+{
+  "name": "domains",
+  "description": "Search for emoji domains and short domains",
+  "author": "rileyjshaw <i@rileyjshaw.com>",
+  "dependencies": {
+    "cli": "^0.6.4"
+  }
+}
