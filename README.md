@@ -13,6 +13,6 @@ or with:
 ./2letter.js | while read i ; do ./check.sh $i ; done
 ```
 
-The tld for 2-letter domains is hard-coded in `check.sh` to .io, but you can change it to whatever your heart desires.
+The tld for 2-letter domains is hard-coded in `check.sh` to .ws, but you can change it to whatever your heart desires.
 
 MIT license.

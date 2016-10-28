@@ -1,5 +1,5 @@
 url="$1"
-url+=".io"
+url+=".ws"
 emoji=$2
 status=$(whois "$url")
 echo "Checking $url"
