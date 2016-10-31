@@ -13,7 +13,7 @@ else
     sleep 3600
     status=$(whois "$url")
     if echo $status | grep -q \
-    '^No match|^NOT FOUND|^Not fo|AVAILABLE|^No Data Fou|has not been regi|No entri'; then
+    '^You exceeded|^No match|^NOT FOUND|^Not fo|AVAILABLE|^No Data Fou|has not been regi|No entri'; then
       echo "$url is available! $emoji"
     fi
   fi
